@@ -173,6 +173,7 @@ parser.add_argument(
     help='Display this many predictions.'
 )
 FLAGS, unparsed = parser.parse_known_args()
+maybe_download_and_extract()
 # Creates graph from saved GraphDef.
 create_graph()
 sess = tf.Session()

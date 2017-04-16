@@ -3,4 +3,4 @@
 view/.DS_Store
 *.pyc
 project/*.pyc
-
+tensor_flow_models/*.pyc
